@@ -1,0 +1,258 @@
+﻿@CHARSET "UTF-8";
+
+		a {
+			text-decoration:none;
+		}
+
+		ul a,.orange_button,.red_button,.nightingale_button,.black_button:link { color:white; }
+		ul a,.orange_button,.red_button,.nightingale_button,.black_button:visited { color:white; }
+		ul a,.orange_button,.red_button,.nightingale_button,.black_button:hover { color:white; }
+		ul a,.orange_button,.red_button,.nightingale_button,.black_button:active { color:white; }
+
+		.logout,.white_button,.pages:link { color:black; }
+		.logout,.white_button,.pages:visited { color:black; }
+		.logout,.white_button,.pages:hover { color:black; }
+		.logout,.white_button,.pages:active { color:black; }
+
+		body,p,li,ul{
+			padding:0px;
+			margin:0px;
+		}
+
+		li{
+			float:left;
+			padding: 15px 0px;
+		}
+
+		body{
+			font-size: 18px;
+			font-family:"MingLiU-ExtB","HG教科書体";
+			margin:0px auto;
+			width:1000px;
+			background-color:#f8f4e6;
+		}
+
+		header{
+			position: relative;
+			background-color:#EDD634;
+			border-radius:5px;
+			overflow:hidden;
+			width:1000px;
+			color:white;
+			text-align:center;
+		}
+
+		header p{
+			clear:both;
+			overflow:hidden;
+			background-color:#f8f4e6;
+			margin-left:840px;
+			width:140px;
+			margin-right:0px;
+			visibility:hidden;
+		}
+
+		.child{
+			clear:both;
+			background-color:#f8f4e6;
+		}
+
+		.logout {
+		padding: 2px 0;
+		border-left: 10px solid #EDD634;
+		}
+
+		.error {
+		color: #e2041b;
+		font-weight:bold;
+		}
+
+		.login_button{
+			font-family:"MingLiU-ExtB","HG教科書体";
+			margin:10px 0px;
+			border-radius:5px;
+			padding:5px 0px;
+			font-size:16px;
+			font-weight:bold;
+			color:white;
+			background-color:orange;
+			width:1000px;
+			height: 45px;
+			border-style:none;
+		}
+
+		input[type="text"],input[type="password"] {
+			font-family:"MingLiU-ExtB","HG教科書体";
+			width:988px;
+			border-radius:5px;
+			border:solid 1px #dcdddd;
+			margin:6px 0px 20px 0px;
+			font-size:15px;
+			height:28px;
+			padding-left:10px;
+		}
+
+		select{
+			font-family:"MingLiU-ExtB","HG教科書体";
+			width:992px;
+			border-radius:5px;
+			border:solid 1px #dcdddd;
+			margin:6px 0px 20px 0px;
+			font-size:15px;
+			height:30px;
+			padding-left:10px;
+		}
+
+		form textarea{
+			font-family:"MingLiU-ExtB","HG教科書体";
+			width:988px;
+			border-radius:5px;
+			border:solid 1px #dcdddd;
+			margin:6px 0px 20px 0px;
+			font-size:15px;
+			padding-left:10px;
+		}
+
+		.join{
+			border-radius:5px;
+			padding:5px;
+			font-size:12px;
+			font-weight:bold;
+			color:white;
+			background-color:orange;
+			border-style:none;
+			width:30px;
+			text-align:center;
+		}
+
+		.back,.orange_button{
+		font-family:"MingLiU-ExtB","HG教科書体";
+		background: orange;
+		border: 1px solid #dcdddd;
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		color: #FFF;
+		padding: 5px 10px;
+		font-size:18px;
+		}
+
+		.save,.save,.Registration,.red_button {
+		font-family:"MingLiU-ExtB","HG教科書体";
+		background: #d3381c;
+		border: 1px solid #dcdddd;
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		color: #FFF;
+		padding: 5px 10px;
+		font-size:18px;
+		}
+
+		.white_button,.cancel {
+		font-family:"MingLiU-ExtB","HG教科書体";
+		background: #FFF;
+		border: 1px solid #dcdddd;
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		color: #111;
+		padding: 5px 10px;
+		font-size:18px;
+		}
+
+		.delete,.black_button{
+		font-family:"MingLiU-ExtB","HG教科書体";
+		background: #3f312b;
+		border: 1px solid #dcdddd;
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		color: #FFF;
+		padding: 5px 10px;
+		font-size:18px;
+		}
+
+		form p{
+			font-weight:bold;
+		}
+
+		.nightingale_button{
+		font-family:"MingLiU-ExtB","HG教科書体";
+		background-color:#EDD634;
+		border: 1px solid #dcdddd;
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		color: white;
+		padding: 5px 10px;
+		font-size:18px;
+		}
+
+		.pages{
+			border:1px solid black;
+			border-radius:5px;
+		}
+
+		.block{
+			border-right:1px solid black;
+		}
+
+		table{
+			width:1000px;
+		}
+
+		table,th,td{
+			border:1px solid #EDD634;
+			border-collapse:collapse;
+		}
+
+		th,td{
+			padding:13px 10px;
+		}
+
+		th{
+			text-align:left;
+		}
+
+		table{
+			margin:15px 0px;
+		}
+
+		table.table2,.table2 th,.table2 td{
+			width:1000px;
+			border-width:1px 0px;
+			border-color:#EDD634;
+			border-style:solid;
+			border-collapse:collapse;
+		}
+
+		.table2 th{
+			width:250px;
+		}
+
+		table.pages{
+			width:230px;
+			height:40px;
+			margin-left:760px;
+			border:1px #EDD634 solid;
+			border-radius:3px;
+			border-spacing:0;
+			text-align:center;
+		}
+
+		.pages td{
+			border-width:0px 1px;
+			border-color:#EDD634;
+			border-style:solid;
+		}
+
+		.pages th{
+			padding-right:0px;
+			padding-left:12px;
+		}
+
+		.now{
+			background-color:#e6b422;
+			color:white;
+		}
